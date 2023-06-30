@@ -82,7 +82,7 @@ do
     esac
 
     if [ $prev_perc != $curr_perc ]; then
-        progressBar+='#'
+        progressBar=$(printf '#%.0s' $(seq 1 $curr_perc))
     fi
     clear
     echo "$curr_perc%"
