@@ -19,7 +19,7 @@ public class SumCalculator {
             int sum = num1 + num2;
 
             // Output the result
-            System.out.println(sum+1);
+            System.out.println(sum);
 
         }
 
